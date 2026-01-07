@@ -23,13 +23,14 @@ function Footer() {
             <a href="#">Login</a>
           </div>
         </div>
-
-
-
-
-
-
-        
+        <div>
+          <h2 className="mb-4 text-[24px] font-bold">Connect</h2>
+          <div className="flex gap-3 text-2xl">
+            <i className="fa-brands fa-twitter"></i>
+            <i className="fa-brands fa-github"></i>
+            <i className="fa-brands fa-linkedin-in"></i>
+          </div>
+        </div>
       </section>
     </footer>
   );
