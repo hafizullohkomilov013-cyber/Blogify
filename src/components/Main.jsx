@@ -1,4 +1,10 @@
 import React from 'react'
+import Overlay from"../../public/img/Overlay.png"
+import Overlay2 from "../../public/img/Overlay2.png";
+import Overlay3 from "../../public/img/Overlay3.png";
+import Development1 from "../../public/img/development1.png";
+import Development2 from "../../public/img/development2.png";
+import Development3 from "../../public/img/development3.png";
 
 function Main() {
   return (
@@ -15,7 +21,7 @@ function Main() {
         </div>
         <div className="box-card justify-center mt-16 flex gap-8">
           <div className="w-full max-w-[384px] p-9 border-2 border-[#c4c4c5] rounded-2xl">
-            <img src="../../public/img/Overlay.png" alt="" />
+            <img src={Overlay} alt="" />
             <h2 className="mt-4 mb-2">Fast</h2>
             <p className="text-[#6B7280]">
               Lightning-fast performance with modern web technologies for the
@@ -23,7 +29,7 @@ function Main() {
             </p>
           </div>
           <div className="w-full max-w-[384px] p-9 border-2 border-[#c4c4c5] rounded-2xl">
-            <img src="from '../../public/img/Overlay2.png" alt="" />
+          <img src={Overlay2} alt="" />
             <h2 className="mt-4 mb-2">Secure</h2>
             <p className="text-[#6B7280]">
               Your data is protected with industry- standard security practices
@@ -31,7 +37,7 @@ function Main() {
             </p>
           </div>
           <div className="w-full max-w-[384px] p-9 border-2 border-[#c4c4c5] rounded-2xl">
-            <img src="../../public/img/Overlay3.png" alt="" />
+            <img src={Overlay3} alt="" />
             <h2 className="mt-4 mb-2">Easy to Manage</h2>
             <p className="text-[#6B7280]">
               Intuitive admin dashboard makes content management effortless and
@@ -54,7 +60,7 @@ function Main() {
           <div className="w-full max-w-90 border-2 border-[#c4c4c5] rounded-2xl">
             <img
               className="dev-img"
-              src="../../public/img/development1.png"
+              src={Development1}
               alt=""
             />
             <div className="p-6">
@@ -78,7 +84,7 @@ function Main() {
           <div className="w-full max-w-90 border-2 border-[#c4c4c5] rounded-2xl">
             <img
               className="dev-img"
-              src="../../public/img/development2.png"
+              src={Development2}
               alt=""
             />
             <div className="p-6">
@@ -102,7 +108,7 @@ function Main() {
           <div className="w-full max-w-90 border-2 border-[#c4c4c5] rounded-2xl">
             <img
               className="dev-img"
-              src="../../public/img/development3.png"
+              src={Development3}
               alt=""
             />
             <div className="p-6">
